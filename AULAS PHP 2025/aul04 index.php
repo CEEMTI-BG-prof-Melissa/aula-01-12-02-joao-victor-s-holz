@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> Aula 04 - PHP </title>
+    </head>
+    <body>
+        <?php
+            $n1==$_GET["a"];
+            $n2=$_GET["b"];
+            
+            $soma=($n1+$n2);
+            $subtracao=($n1-$n2);
+            $multiplicacao=($n1-$n2);
+            $divisao=($n1/$n2);
+            $restodiv=($n1%$n2);
+
+            echo "<br> A soma de $n1 e $n2 é igual á $soma";
+            echo "<br> A subtração de $n1 e $n2 é igual á $subtracao";
+            echo "<br> A multiplicação de $n1 e $n2 é igual á $multiplicacao";
+            echo "<br> A divisão de $n1 e $n2 é igual á $divisao";
+            echo "<br> O resto da divisão de $n1 e $n2 é igual á $restodiv";
+
+
+            ?>
+    </body>
+</html>
